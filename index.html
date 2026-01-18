@@ -45,6 +45,21 @@
     </header>
     <main class="content">
       <section id="reservation" aria-label="Reservar"></section>
+      <h2 class="content-title">Reservar una mesa</h2>
+      <form class="reservation-form">
+        <fieldset class="reservation-form-fieldset">
+          <label class = "reservation__label"for="name">Nombre *</label>
+          <input class="reservation__input" type="text" id="name" name="name" placeholder="Nombre" required>
+          <label class = "reservation__label"for="email">Número de comensales *</label>
+          <input class="reservation__input" type="number" id="number-of-guests" name="number-of-guests" placeholder="Número de comensales" required>
+          <label class = "reservation__label"for="date">Fecha y hora *</label>
+          <input class="reservation__input" type="datetime-local" id="date" name="date" required>
+          <label class="reservation__label" for="time">Tu correo electrónico *</label>
+          <input class="reservation__input" type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+          <button class="reservation__button" type="submit">Reservar una mesa</button>
+          <label class=""reservation__label reservation__label_type_checkbox>Acepto los términos de uso</label>
+        </fieldset>
+      </form>
     </main>
     <footer class="footer">
       <section id="contacts" aria-label="Contactos"></section>
