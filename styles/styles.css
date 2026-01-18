@@ -109,3 +109,24 @@
   margin: 0;
   color: #6f6f6f;
 }
+
+.reservation {
+  padding: 100px 0 120px;
+  background-color: #ffd6c5;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.reservation-title {
+  margin: 0 auto 80px;
+  text-align: center;
+  font-size: 44px;
+  line-height: 52px;
+  font-weight: 500;
+}
+
+.reservation-form{
+  max-width: 385px;
+  margin: 0 auto;
+}
