@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .page {
     min-width: 1100px;
     max-width: 1600px;
@@ -8,6 +12,4 @@
     font-weight: 500;
     color: #000000;
   }
-
-
 
