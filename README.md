@@ -4,8 +4,11 @@ README:
 **Nombre de Proyecto:**
 *Coffeeshop Web Project*
 -----------------------
+
 **Descripcion del Proyecto:**
 Este proyecto fue hecho para una cafeteria llamada Triple Espresso. Se hizo una pagina que incluye lo siguiente:
+
+
 *Header con:*
 1. Logo
 2. Navbar
@@ -31,6 +34,7 @@ g. labels para cada una de las opciones.
 
 
 -----------------------
+
 **Planes de mejoria al Proyecto:**
 
 - Adicionarle la capacidad de que el navbar siga en la parte de arriba de la pagina (osea que este pegado).
