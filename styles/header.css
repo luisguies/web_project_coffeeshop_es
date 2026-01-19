@@ -56,7 +56,7 @@
   height: auto;
 }
 
-.header-info {
+.header__info {
   margin-top: auto;
   display: flex;
   justify-content: space-between;
@@ -64,13 +64,13 @@
   gap: 20px;
 }
 
-.header-hours {
+.header__hours {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.info-text {
+.header__info-text {
   margin: 0;
   color: #6f6f6f;
 }
