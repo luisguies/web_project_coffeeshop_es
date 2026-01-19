@@ -43,7 +43,7 @@ h1, h2, h3, p, ul {
   left: -30px;
 }
 
-.nav-links {
+.nav__links {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -51,17 +51,20 @@ h1, h2, h3, p, ul {
   gap: 20px;
 }
 
-.nav-link {
+.nav__link {
   color: #000000;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.nav-link:hover {
+.nav__link:hover {
   color: #ff976b;
 }
 
-.header-title {
+.header__content {
+}
+
+.header__title {
   margin: 183px 0 0;
   font-size: 58px;
   line-height: 72px;
@@ -69,7 +72,7 @@ h1, h2, h3, p, ul {
   max-width: 729px;
 }
 
-.header-title span {
+.header__title span {
   display: block;
 }
 
@@ -80,7 +83,7 @@ h1, h2, h3, p, ul {
   color: #ff976b;
 }
 
-.header-description {
+.header__description {
   margin: 28px 0 0;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
@@ -89,7 +92,7 @@ h1, h2, h3, p, ul {
   max-width: 683px;
 }
 
-.header-image {
+.header__image {
   position: absolute;
   top: 124px;
   right: 5px;

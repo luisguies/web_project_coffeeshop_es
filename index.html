@@ -4,6 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Triple Espresso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap">
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
   </head>
@@ -15,21 +18,23 @@
           src="images/logo_coffeeshop_dark.svg"
           alt="Triple Espresso"
         />
-        <ul class="nav-links">
-          <li><a class="nav-link" href="#reserva">Reservar una mesa</a></li>
-          <li><a class="nav-link" href="#contactos">Contactos</a></li>
+        <ul class="nav__links">
+          <li><a class="nav__link" href="#reserva">Reservar una mesa</a></li>
+          <li><a class="nav__link" href="#contactos">Contactos</a></li>
         </ul>
       </nav>
-      <h1 class="header-title">
-        <span class="span-accent">Café de especialidad</span>
-        <span>en Triple Peaks</span>
-      </h1>
-      <p class="header-description">
-        ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
-        para darte energía y motivar tu creatividad.
-      </p>
+      <div class="header__content">
+        <h1 class="header__title">
+          <span class="span-accent">Café de especialidad</span>
+          <span>en Triple Peaks</span>
+        </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y motivar tu creatividad.
+        </p>
+      </div>
       <img
-        class="header-image"
+        class="header__image"
         src="images/inside_coffee_shop.png"
         alt="Interior de una cafetería"
       />
@@ -75,36 +80,33 @@
     </main>
     <footer class="footer">
       <section id="contactos" aria-label="Contactos"></section>
-      <footer class="footer">
-        <section id="contactos" aria-label="Contactos"></section>
-        <div class="footer__content">
-          <div class="footer__circle"></div>
-          
-          <div class="footer__row">
-            <img class="footer__logo" src="images/logo_coffeeshop_dark.svg" alt="Triple Espresso">
-            <div class="footer__social">
-              <h2 class="footer__social-heading">Redes sociales</h2>
-              <ul class="footer__list">
-                <li class="footer__list-item">
-                  <a class="footer__social-link" href="#">
-                    <img class="footer__social-icon" src="images/instagram_white.svg" alt="Instagram">
-                    Instagram
-                  </a>
-                </li>
-                <li class="footer__list-item">
-                  <a class="footer__social-link" href="#">
-                    <img class="footer__social-icon" src="images/facebook_white.svg" alt="Facebook">
-                    Facebook
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="footer__row">
-            <p class="footer__copyright">© 2026 Luis Guillermo Escobar</p>
+      <div class="footer__content">
+        <div class="footer__circle"></div>
+        
+        <div class="footer__row">
+          <img class="footer__logo" src="images/logo_coffeeshop_dark.svg" alt="Triple Espresso">
+          <div class="footer__social">
+            <h2 class="footer__social-heading">Redes sociales</h2>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img class="footer__social-icon" src="images/instagram_white.svg" alt="Instagram">
+                  Instagram
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img class="footer__social-icon" src="images/facebook_white.svg" alt="Facebook">
+                  Facebook
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
-      </footer>
+        <div class="footer__row">
+          <p class="footer__copyright">© 2026 Luis Guillermo Escobar</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
