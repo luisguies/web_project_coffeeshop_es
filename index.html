@@ -44,46 +44,67 @@
       </div>
     </header>
     <main class="content">
-      <section id="reservation" aria-label="Reservar"></section>
-      <h2 class="reservation-title">Reservar una mesa</h2>
-      <form class="reservation-form">
-        <fieldset class="reservation-form-fieldset">
-          <label class = "reservation__label"for="name">Nombre *</label>
-          <input class="reservation__input" type="text" id="name" name="name" placeholder="Nombre" required>
-          <label class = "reservation__label"for="email">Número de comensales *</label>
-          <input class="reservation__input" type="number" id="number-of-guests" name="number-of-guests" placeholder="Número de comensales" required>
-          <label class = "reservation__label"for="date">Fecha y hora *</label>
-          <input class="reservation__input" type="datetime-local" id="date" name="date" required>
-          <label class="reservation__label" for="time">Tu correo electrónico *</label>
-          <input class="reservation__input" type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+      <section class="reservation" id="reserva" aria-label="Reservar">
+        <h2 class="reservation__title">Reservar una mesa</h2>
+      <form class="reservation__form">
+        <fieldset class="reservation__fieldset">
+          <label class="reservation__label" for="name">
+            Nombre *
+            <input class="reservation__input" type="text" id="name" name="name" placeholder="Nombre" required>
+          </label>
+          <label class="reservation__label" for="email">
+            Número de comensales *
+            <input class="reservation__input" type="number" id="number-of-guests" name="number-of-guests" placeholder="Número de comensales" required>
+          </label>
+          <label class="reservation__label" for="date">
+            Fecha y hora *
+            <input class="reservation__input" type="datetime-local" id="date" name="date" required>
+          </label>
+          <label class="reservation__label" for="time">
+            Tu correo electrónico *
+            <input class="reservation__input" type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+          </label>
           <button class="reservation__button" type="submit">Reservar una mesa</button>
-          <label class=""reservation__label reservation__label_type_checkbox>Acepto los términos de uso</label>
+          <label class="reservation__label reservation__label_type_checkbox">
+            <input class="reservation__checkbox" type="checkbox" name="terms" required>
+            Acepto los términos de uso
+          </label>
         </fieldset>
       </form>
+      </section>
     </main>
     <footer class="footer">
-      <section id="contacts" aria-label="Contactos"></section>
-      <div class="footer__content">
-        <img class="footer__logo" src="images/logo_coffeeshop_dark.svg" alt="Triple Espresso">
-        <div class=""footer__circle" aria-hidden="true"></div>
-        <div class="footer__social">
-          <ul class="footer__list">
-            <li class="footer__list-item">
-              <a class="footer__social-link" href="#">
-                <img class="footer__social-icon" src="images/icon_instagram.svg" alt="Instagram">
-                Instagram
-              </a>
-            </li>
-            <li class="footer__list-item">
-              <a class="footer__social-link" href="#">
-                <img class="footer__social-icon" src="images/icon_facebook.svg" alt="Facebook">
-                Facebook
-              </a>
-            </li>
-          </ul>
+      <section id="contactos" aria-label="Contactos"></section>
+      <footer class="footer">
+        <section id="contactos" aria-label="Contactos"></section>
+        <div class="footer__content">
+          <div class="footer__circle"></div>
+          
+          <div class="footer__row">
+            <img class="footer__logo" src="images/logo_coffeeshop_dark.svg" alt="Triple Espresso">
+            <div class="footer__social">
+              <h2 class="footer__social-heading">Redes sociales</h2>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a class="footer__social-link" href="#">
+                    <img class="footer__social-icon" src="images/instagram_white.svg" alt="Instagram">
+                    Instagram
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a class="footer__social-link" href="#">
+                    <img class="footer__social-icon" src="images/facebook_white.svg" alt="Facebook">
+                    Facebook
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__row">
+            <p class="footer__copyright">© 2026 Luis Guillermo Escobar</p>
+          </div>
         </div>
-        <p class="footer__copyright">© 2026 Luis Guillermo Escobar</p>
-      </div>
+      </footer>
     </footer>
   </body>
 </html>
